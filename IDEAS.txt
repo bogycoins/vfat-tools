@@ -1,0 +1,15 @@
+PANTHER SWAP
+1. Contract MASTER CHEF
+contractul care contine toate poolurile
+
+2. metode utile:
+poolLength() -> numarul de pooluri
+poolInfo(uint256 poolId) -> info despre poolul cu idul specificat
+
+pendingPanther(poolId, userAddress) -> returneaza pendingTOKEN pentru un anumit pool
+
+userInfo(poolId, userAddress) -> info despre user pentru poolul specificat
+  amount   uint256 :  2707500000000000000 -> staked tokens
+  rewardDebt   uint256 :  21090056131574505000
+  rewardLockedUp   uint256 :  0
+  nextHarvestUntil   uint256 :  1620305968
